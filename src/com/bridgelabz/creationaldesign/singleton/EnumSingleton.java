@@ -1,4 +1,4 @@
-package com.bridgelabz.creationaldesign;
+package com.bridgelabz.creationaldesign.singleton;
 
 public class EnumSingleton {
 

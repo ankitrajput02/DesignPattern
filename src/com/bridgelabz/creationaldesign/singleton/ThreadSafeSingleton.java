@@ -1,4 +1,4 @@
-package com.bridgelabz.creationaldesign;
+package com.bridgelabz.creationaldesign.singleton;
 
 class Counter {
 	int count;

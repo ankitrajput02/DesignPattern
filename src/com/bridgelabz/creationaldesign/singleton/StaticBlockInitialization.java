@@ -1,4 +1,4 @@
-package com.bridgelabz.creationaldesign;
+package com.bridgelabz.creationaldesign.singleton;
 
 /**
  * Instance of class is created in the static block that provides option for
