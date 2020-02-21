@@ -3,6 +3,9 @@ package com.bridgelabz.creationaldesign.prototype;
 import java.util.ArrayList;
 import java.util.List;
 
+/**Getter and Setter methods for Company
+ *
+ */
 public class Company implements Cloneable {
 	private String cName;
 	List<Employee> Emp = new ArrayList<>();
@@ -38,6 +41,11 @@ public class Company implements Cloneable {
 
 	}
 
+	/**
+	 * The better approach would be to clone the existing object into a new object
+	 * and then do the data manipulation
+	 *
+	 */
 	@Override
 	protected Company clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub

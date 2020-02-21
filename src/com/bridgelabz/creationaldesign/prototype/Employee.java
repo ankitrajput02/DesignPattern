@@ -1,5 +1,9 @@
 package com.bridgelabz.creationaldesign.prototype;
 
+/**Getter and Setter methods for Employee
+ * 
+ *
+ */
 public class Employee {
 
 	public String getName() {

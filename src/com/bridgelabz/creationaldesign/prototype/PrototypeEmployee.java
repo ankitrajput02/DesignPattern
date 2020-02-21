@@ -1,5 +1,9 @@
 package com.bridgelabz.creationaldesign.prototype;
 
+/**Title:Prototype Design Pattern
+ * Created By:Ankit Rajput
+ *
+ */
 public class PrototypeEmployee {
 
 	public static void main(String[] args) throws CloneNotSupportedException {

@@ -1,11 +1,14 @@
 package com.bridgelabz.creationaldesign.singleton;
 
+/**
+ * Title:Eager Initialization Java code to create singleton class by Eager
+ * Initialization.
+ * Created By:Ankit Rajput
+ * 
+ *
+ */
 public class EagerInitialization {
 
-	/**Design Pattern::Creational Design Pattern::Eager Initialization
-	 * Java code to create singleton class by Eager Initialization
-	 * 
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		EagerInitializationDemo.getInstance();
@@ -13,8 +16,6 @@ public class EagerInitialization {
 		// EagerInitializationDemo obj=EagerInitializationDemo.getInstance();
 		// EagerInitializationDemo obj1=EagerInitializationDemo.getInstance();
 	}
-
-	
 
 }
 

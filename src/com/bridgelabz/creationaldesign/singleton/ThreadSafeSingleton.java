@@ -1,13 +1,11 @@
 package com.bridgelabz.creationaldesign.singleton;
 
-class Counter {
-	int count;
-
-	public synchronized void increment() {
-		count++;
-	}
-}
-
+/**
+ * Title:Thread Safe Singleton. To create a thread-safe singleton class is to
+ * make the global access method synchronized. Created By:Ankit Rajput
+ * 
+ *
+ */
 public class ThreadSafeSingleton {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -34,4 +32,13 @@ public class ThreadSafeSingleton {
 		System.out.println("Count " + c.count);
 	}
 
+}
+
+//synchronized
+class Counter {
+	int count;
+
+	public synchronized void increment() {
+		count++;
+	}
 }
